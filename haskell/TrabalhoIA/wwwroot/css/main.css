@@ -1,0 +1,50 @@
+table {
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+td {
+    width: 20px;
+    height: 20px;
+}
+
+.g {
+    background-color: lightgreen;
+}
+
+.s {
+    background-color: yellow;
+}
+
+.f {
+    background-color: darkgreen;
+}
+
+.m {
+    background-color: brown;
+}
+
+.w {
+    background-color: blue;
+}
+
+.d {
+    background-color: lightgray;
+}
+
+.n {
+    background-color: darkgray;
+}
+
+td img {
+    width: 15px;
+    height: 15px;
+}
+
+.show {
+    display: inline;
+}
+
+.hide {
+    display: none;
+}

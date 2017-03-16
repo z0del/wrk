@@ -1,0 +1,21 @@
+Configuring persistent-sqlite-2.2.1...
+Building persistent-sqlite-2.2.1...
+Preprocessing library persistent-sqlite-2.2.1...
+[1 of 2] Compiling Database.Sqlite  ( Database/Sqlite.hs, dist/dist-sandbox-6fc0c9a3/build/Database/Sqlite.o )
+
+Database/Sqlite.hs:50:1: Warning:
+    The import of `Data.Monoid' is redundant
+      except perhaps to import instances from `Data.Monoid'
+    To import instances alone, use: import Data.Monoid()
+[2 of 2] Compiling Database.Persist.Sqlite ( Database/Persist/Sqlite.hs, dist/dist-sandbox-6fc0c9a3/build/Database/Persist/Sqlite.o )
+
+Database/Persist/Sqlite.hs:41:1: Warning:
+    The import of `Control.Applicative' is redundant
+      except perhaps to import instances from `Control.Applicative'
+    To import instances alone, use: import Control.Applicative()
+In-place registering persistent-sqlite-2.2.1...
+Creating package registration file:
+/tmp/pkgConf-persistent-sqlite-2.21600515282040332871.1
+Installing library in
+/home/human/Workspace/Haskell/myBlog/.cabal-sandbox/lib/x86_64-linux-ghc-7.10.3/persistent-sqlite-2.2.1-Ax4fxgjdUR52jnFMsgDhk0
+Registering persistent-sqlite-2.2.1...

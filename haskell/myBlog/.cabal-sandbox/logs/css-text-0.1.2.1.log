@@ -1,0 +1,19 @@
+Configuring css-text-0.1.2.1...
+Building css-text-0.1.2.1...
+Preprocessing library css-text-0.1.2.1...
+[1 of 2] Compiling Text.CSS.Parse   ( Text/CSS/Parse.hs, dist/dist-sandbox-6fc0c9a3/build/Text/CSS/Parse.o )
+
+Text/CSS/Parse.hs:19:1: Warning:
+    The import of `<$>' from module `Control.Applicative' is redundant
+[2 of 2] Compiling Text.CSS.Render  ( Text/CSS/Render.hs, dist/dist-sandbox-6fc0c9a3/build/Text/CSS/Render.o )
+
+Text/CSS/Render.hs:13:1: Warning:
+    The import of `Data.Monoid' is redundant
+      except perhaps to import instances from `Data.Monoid'
+    To import instances alone, use: import Data.Monoid()
+In-place registering css-text-0.1.2.1...
+Creating package registration file:
+/tmp/pkgConf-css-text-0.1.29908929211760243555.1
+Installing library in
+/home/human/Workspace/Haskell/myBlog/.cabal-sandbox/lib/x86_64-linux-ghc-7.10.3/css-text-0.1.2.1-EIrTNZIusX93HMVzZkp9UD
+Registering css-text-0.1.2.1...

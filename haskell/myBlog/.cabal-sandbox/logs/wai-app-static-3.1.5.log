@@ -1,0 +1,50 @@
+Configuring wai-app-static-3.1.5...
+Building wai-app-static-3.1.5...
+Preprocessing library wai-app-static-3.1.5...
+[1 of 9] Compiling WaiAppStatic.Types ( WaiAppStatic/Types.hs, dist/dist-sandbox-6fc0c9a3/build/WaiAppStatic/Types.o )
+[2 of 9] Compiling Util             ( Util.hs, dist/dist-sandbox-6fc0c9a3/build/Util.o )
+[3 of 9] Compiling WaiAppStatic.Listing ( WaiAppStatic/Listing.hs, dist/dist-sandbox-6fc0c9a3/build/WaiAppStatic/Listing.o )
+
+WaiAppStatic/Listing.hs:67:34: Warning:
+    This binding for `pieces' shadows the existing binding
+      bound at WaiAppStatic/Listing.hs:27:16
+
+WaiAppStatic/Listing.hs:120:24: Warning:
+    Defined but not used: `isFile'
+[4 of 9] Compiling WaiAppStatic.Storage.Filesystem ( WaiAppStatic/Storage/Filesystem.hs, dist/dist-sandbox-6fc0c9a3/build/WaiAppStatic/Storage/Filesystem.o )
+[5 of 9] Compiling WaiAppStatic.Storage.Embedded.Runtime ( WaiAppStatic/Storage/Embedded/Runtime.hs, dist/dist-sandbox-6fc0c9a3/build/WaiAppStatic/Storage/Embedded/Runtime.o )
+[6 of 9] Compiling WaiAppStatic.Storage.Embedded.TH ( WaiAppStatic/Storage/Embedded/TH.hs, dist/dist-sandbox-6fc0c9a3/build/WaiAppStatic/Storage/Embedded/TH.o )
+
+WaiAppStatic/Storage/Embedded/TH.hs:10:1: Warning:
+    The import of `Control.Applicative' is redundant
+      except perhaps to import instances from `Control.Applicative'
+    To import instances alone, use: import Control.Applicative()
+[7 of 9] Compiling WaiAppStatic.Storage.Embedded ( WaiAppStatic/Storage/Embedded.hs, dist/dist-sandbox-6fc0c9a3/build/WaiAppStatic/Storage/Embedded.o )
+[8 of 9] Compiling Network.Wai.Application.Static ( Network/Wai/Application/Static.hs, dist/dist-sandbox-6fc0c9a3/build/Network/Wai/Application/Static.o )
+
+Network/Wai/Application/Static.hs:92:22: Warning:
+    This binding for `req' shadows the existing binding
+      bound at Network/Wai/Application/Static.hs:77:40
+
+Network/Wai/Application/Static.hs:242:13: Warning:
+    Defined but not used: `filesize'
+[9 of 9] Compiling WaiAppStatic.CmdLine ( WaiAppStatic/CmdLine.hs, dist/dist-sandbox-6fc0c9a3/build/WaiAppStatic/CmdLine.o )
+
+WaiAppStatic/CmdLine.hs:41:1: Warning:
+    Top-level binding with no type signature:
+      option' :: Mod OptionFields Int -> Parser Int
+
+WaiAppStatic/CmdLine.hs:95:5: Warning:
+    This binding for `args' shadows the existing binding
+      defined at WaiAppStatic/CmdLine.hs:47:1
+In-place registering wai-app-static-3.1.5...
+Preprocessing executable 'warp' for wai-app-static-3.1.5...
+[1 of 1] Compiling Main             ( app/warp-static.hs, dist/dist-sandbox-6fc0c9a3/build/warp/warp-tmp/Main.o )
+Linking dist/dist-sandbox-6fc0c9a3/build/warp/warp ...
+Creating package registration file:
+/tmp/pkgConf-wai-app-static-3.11780695788709393584.5
+Installing library in
+/home/human/Workspace/Haskell/myBlog/.cabal-sandbox/lib/x86_64-linux-ghc-7.10.3/wai-app-static-3.1.5-Lb69Bhtmj6JDru77oFLeKz
+Installing executable(s) in
+/home/human/Workspace/Haskell/myBlog/.cabal-sandbox/bin
+Registering wai-app-static-3.1.5...

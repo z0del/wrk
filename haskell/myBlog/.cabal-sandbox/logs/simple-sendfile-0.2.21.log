@@ -1,0 +1,17 @@
+Configuring simple-sendfile-0.2.21...
+Building simple-sendfile-0.2.21...
+Preprocessing library simple-sendfile-0.2.21...
+[1 of 3] Compiling Network.Sendfile.Types ( Network/Sendfile/Types.hs, dist/dist-sandbox-6fc0c9a3/build/Network/Sendfile/Types.o )
+[2 of 3] Compiling Network.Sendfile.Linux ( dist/dist-sandbox-6fc0c9a3/build/Network/Sendfile/Linux.hs, dist/dist-sandbox-6fc0c9a3/build/Network/Sendfile/Linux.o )
+
+Network/Sendfile/Linux.hsc:10:1: Warning:
+    The import of `Control.Applicative' is redundant
+      except perhaps to import instances from `Control.Applicative'
+    To import instances alone, use: import Control.Applicative()
+[3 of 3] Compiling Network.Sendfile ( Network/Sendfile.hs, dist/dist-sandbox-6fc0c9a3/build/Network/Sendfile.o )
+In-place registering simple-sendfile-0.2.21...
+Creating package registration file:
+/tmp/pkgConf-simple-sendfile-0.213080448781346811305.21
+Installing library in
+/home/human/Workspace/Haskell/myBlog/.cabal-sandbox/lib/x86_64-linux-ghc-7.10.3/simple-sendfile-0.2.21-1s4YZSsjn6TCbK7MVn1EXz
+Registering simple-sendfile-0.2.21...

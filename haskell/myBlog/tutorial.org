@@ -1,0 +1,377 @@
+* Introdução
+#+BEGIN_VERSE
+Neste tutorial faremos um blog usando o Yesod Frameword.\\
+Yesod é um framework web Haskell para o desenvolvimento produtivo de RESTful, uma aplicação web de tipo
+seguro e de alta performance.
+#+END_VERSE
+
+** Começando..
+*** Pacotes a serem instalados
+- psql (postgres)
+- stack
+- yesod
+- yesod-bin
+** Criando um novo projeto
+#+BEGIN_VERSE
+Com tudo devidamente instalado, criamos um novo projeto usando o Stack, cuja a\\
+sintaxe é /stack new <project name> <template>/.\\
+Para esse caso:
+#+END_VERSE
+- /stack new myBlog yesod-sqlite && cd myBlog/
+
+#+BEGIN_VERSE
+Para construir as bibliotecas
+#+END_VERSE
+- /stack exec -- yesod devel/
+
+#+BEGIN_QUOTE
+Agora você pode testar sua aplicaçando em http://localhost:3000/ \\
+Após isso, criamos uma sandbox para nosso projeto usando o Cabal: 
+#+END_QUOTE
+- /cabal sandbox init/
+
+#+BEGIN_QUOTE
+Agora instalamos apenas as dependencias necessárias para nossa aplicação:
+#+END_QUOTE
+
+- /cabal install --only-dependencies/
+
+#+BEGIN_QUOTE
+Em seguida podemos criar nossa aplicação e testá-la:
+#+END_QUOTE
+
+- /cabal build/
+- /yesod-devel/
+
+** Criando Rotas
+
+#+BEGIN_QUOTE
+Antes de irmos a frente, criamos um novo git repo.\\
+#+END_QUOTE
+
+- /git init/
+- /git add ./
+- /git commit -m "myBlog" ./
+
+#+BEGIN_QUOTE
+Agora estamos prontos para seguir em frente.\\
+A primeira coisa que temos que fazer para uma aplicação de blog, é uma página que nos permita criar blog posts.\\
+Uma página que nos permita criar amostras de dados e ver como o yesod cria rotas. Não faremos tudo na mão,\\
+então no terminal:
+#+END_QUOTE
+
+- /yesod add-handler/ 
+
+#+BEGIN_QUOTE
+Isto abrirá um menu, para esse caso respondemos:
+#+END_QUOTE
+
+- PostNew 
+- /post/new 
+- GET
+
+#+BEGIN_QUOTE
+Podemos ver que houve algumas mudanças com o comando:\\
+- /git status/ 
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Agora estamos prontos para continuar com este Handler.\\
+Handler/PostNew.hs e editamos o que está lá para:
+#+END_QUOTE
+
+#+BEGIN_SRC haskell
+module Handler.PostNew where
+
+import Import
+
+getPostNewR :: Handler Html
+getPostNewR = do
+  defaultLayout $ do
+    $(widgetFile "posts/new")
+#+END_SRC
+
+#+BEGIN_QUOTE
+Em seguida criaremos uma nova página, um template. Criamos uma nova pasta dentro de templates.\\
+templates/posts. A seguir criamos um documento em equivalente ao html, o hamlet.\\
+*new.hamlet*\\
+Para testarmos, editamos para:
+#+END_QUOTE
+
+#+BEGIN_SRC html
+<h1> Create a post!
+#+END_SRC
+
+Interprete o Handler e pode-se testar no browser.
+http://localhost:3000/posts/new
+
+"Insert copyright statement here" não é necessáriamente requerido. Isso vem da função /defaultLayout/
+que chama o dafault-layout-wrapper.hamlet e lá há um campo que está especificado o seguinte:
+
+#+BEGIN_SRC html
+ <body>
+    <div class="container">
+      <header>
+      <div id="main" role="main">
+        ^{pageBody pc}
+      <footer>
+        #{appCopyright $ appSettings master}
+#+END_SRC
+
+Então é só apagar a seguinte linha:
+#+BEGIN_QUOTE
+#{appCopyright $ appSettings master}
+#+END_QUOTE
+
+** Criando Forms
+Fazemos algumas mudanças no Handler:
+
+#+BEGIN_SRC haskell
+module Handler.PostNew where
+
+import Import
+import Yesod.Form.Bootstrap3
+
+data BlogPost = BlogPost
+        { title :: Text
+        }
+
+blogPostForm :: AForm Handler BlogPost
+blogPostForm = BlogPost
+            <$> areq textField (bfs ("Title" :: Text)) Nothing
+
+getPostNewR :: Handler Html
+getPostNewR = do
+    (widget, enctype) <- generateFormPost $ renderBootstrap3 BootstrapBasicForm blogPostForm
+    defaultLayout $ do
+        $(widgetFile "posts/new")
+#+END_SRC
+
+E também algumas mudanças no template:
+
+#+BEGIN_SRC html
+<h1> Create a post!
+
+<form method=post action=@{PostNewR} enctype=#{enctype}>
+  ^{widget}
+  <button class="btn btn-default">Create Post!
+#+END_SRC
+
+Agora precisamos de algo para gerar novos blogposts. Adicionaremos dois pacotes em nosso myBlog.cabal.
+Na guia *build-depends*, ao fim dela adicione:
+#+BEGIN_QUOTE
+ , markdown \\
+ , yesod-text-markdown
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Agora adicionaremos mais alguns recursos em nosso Handler:
+#+END_QUOTE
+
+#+BEGIN_SRC haskell
+module Handler.PostNew where
+
+import Import
+import Yesod.Form.Bootstrap3
+import Text.Markdown (Markdown)
+import Yesod.Text.Markdown
+
+data BlogPost = BlogPost
+        { title :: Text
+        , article :: Markdown
+        }
+
+blogPostForm :: AForm Handler BlogPost
+blogPostForm = BlogPost
+            <$> areq textField (bfs ("Title" :: Text)) Nothing
+            <*> areq markdownField (bfs ("Article" :: Text)) Nothing
+
+getPostNewR :: Handler Html
+getPostNewR = do
+    (widget, enctype) <- generateFormPost $ renderBootstrap3 BootstrapBasicForm blogPostForm
+    defaultLayout $ do
+        $(widgetFile "posts/new")
+#+END_SRC
+
+#+BEGIN_QUOTE
+Para deixarmos o campo de "Articles" um pouco maior, então criamos um novo documento css (lucius).\\
+O Caminho é /templates/posts/new/new.lucius
+#+END_QUOTE
+
+#+BEGIN_SRC css
+textarea {
+    min-height: 400px;
+  }
+#+END_SRC
+
+** Definindo rotas onde os blogpost serão gerados
+#+BEGIN_QUOTE
+Começamos adicionando um método para o construtor /PostNewR/. Seu caminho é, /config/routes.
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+/ /posts/new PostNewR GET POST/
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Então agora implementaremos esse construtor em nosso Handler. Vamos até /config/models e lá criaremos
+um novo modelo para nosso blogpost.
+#+END_QUOTE
+
+#+BEGIN_SRC haskell
+BlogPost
+    title Text
+    article Markdown
+#+END_SRC
+
+#+BEGIN_QUOTE
+Então adicionamos as bibliotecas necessárias para nosso modelo em /config/Model.hs 
+#+END_QUOTE
+
+#+BEGIN_SRC haskell
+import Text.Markdown (Markdown)
+import Yesod.Text.Markdown ()
+#+END_SRC
+
+#+BEGIN_QUOTE
+Podemos agora remover nosso /data BlogPost/ para implementar o nosso construtor, que será salva em um banco de dados.
+Nosso Handler ficará assim:
+#+END_QUOTE
+
+#+BEGIN_SRC haskell
+module Handler.PostNew where
+
+import Import
+import Yesod.Form.Bootstrap3
+import Yesod.Text.Markdown
+
+blogPostForm :: AForm Handler BlogPost
+blogPostForm = BlogPost
+            <$> areq textField (bfs ("Title" :: Text)) Nothing
+            <*> areq markdownField (bfs ("Article" :: Text)) Nothing
+
+getPostNewR :: Handler Html
+getPostNewR = do
+    (widget, enctype) <- generateFormPost $ renderBootstrap3 BootstrapBasicForm blogPostForm
+    defaultLayout $ do
+        $(widgetFile "posts/new")
+
+postPostNewR :: Handler Html
+postPostNewR = do
+  ((res, widget), enctype) <- runFormPost $ renderBootstrap3 BootstrapBasicForm blogPostForm
+  case res of
+    FormSuccess blogPost -> do
+      _ runDB $ insert blogPost
+      error "TODO"
+       _ -> defaultLayout $(widgetFile "posts/new")
+#+END_SRC
+
+#+BEGIN_QUOTE
+Agora criaremos uma página que nos permite criar blogposts.
+No terminal digitamos:
+#+END_QUOTE
+
+- yesod add-handler
+- PostDetails
+- /posts/#BlogPostId
+- GET
+
+#+BEGIN_QUOTE
+Isso irá gerar um problema de overlapping, para solucionar vamos para /config/routs
+e editamos a seguinte linha como a seguir:
+#+END_QUOTE
+
+- /posts/!#BlogPostId PostDetailsR GET
+
+#+BEGIN_QUOTE
+Agora editaremos o construtor /PostDetails.hs/ para que a página salve as postagens.
+#+END_QUOTE
+
+#+BEGIN_SRC haskell
+module Handler.PostDetails where
+
+import Import
+
+getPostDetailsR :: BlogPostId -> Handler Html
+getPostDetailsR blogPostId = do
+  blogPost <- runDB $ get404 blogPostId
+  defaultLayout $ do
+    $(widgetFile "postDetails/post")
+#+END_SRC
+
+#+BEGIN_QUOTE
+Criamos também uma nova pasta e um novo arquivo para essas manipulações.
+/templates/postDetails/post.hamlet. E lá digitamos.
+#+END_QUOTE
+
+#+BEGIN_SRC html
+<h1>#{blogPostTitle blogPost}
+
+<article .jumbletron>
+  #{blogPostArticle blogPost}
+#+END_SRC
+
+#+BEGIN_QUOTE
+Em PostNew.hs queremos que o usuário seja redirecionado quando inserirmos um blogpost, redirecionado-o para página de postagens.
+#+END_QUOTE
+
+#+BEGIN_SRC haskell
+postPostNewR :: Handler Html
+postPostNewR = do
+  ((res, widget), enctype) <- runFormPost $ renderBootstrap3 BootstrapBasicForm blogPostForm
+  case res of
+    FormSuccess blogPost -> do
+      blogPostId <- runDB $ insert blogPost
+      redirect $ PostDetailsR blogPostId
+    _ -> defaultLayout $(widgetFile "posts/new")
+#+END_SRC
+
+#+BEGIN_QUOTE
+Agora indexaremos tudo na página inicial, para isso editamos o arquivo /config/routes.
+#+END_QUOTE
+
+- / HomeR GET
+
+#+BEGIN_QUOTE
+Em seguida editamos o arquivo Home.hs para que apareça todos os posts feitos.
+#+END_QUOTE
+
+
+#+BEGIN_SRC haskell
+module Handler.Home where
+
+import Import
+
+-- This is a handler function for the GET request method on the HomeR
+-- resource pattern. All of your resource patterns are defined in
+-- config/routes
+--
+-- The majority of the code you will write in Yesod lives in these handler
+-- functions. You can spread them across multiple files if you are so
+-- inclined, or create a single monolithic file.
+getHomeR :: Handler Html
+getHomeR = do
+    allPosts <- runDB $ selectList [] [Desc BlogPostId]
+    defaultLayout $ do
+        $(widgetFile "posts/index") 
+#+END_SRC
+
+#+BEGIN_QUOTE
+Feito isso, falta agora criar apenas o hamlet da página inicial.
+Seu caminho é /templates/posts/index.hamlet
+#+END_QUOTE
+
+#+BEGIN_SRC html
+<h1> All Posts
+
+<div .jumbotron>
+  <ul>
+    $forall Entity id post <- allPosts
+      <h4>
+        <li>
+          <a href=@{PostDetailsR id}>#{blogPostTitle post}
+#+END_SRC
+
+#+BEGIN_QUOTE
+Com isso concluimos nosso tutorial.
+#+END_QUOTE

@@ -1,0 +1,6 @@
+module Handler.PostDetails where
+
+import Import
+
+getPostDetailsR :: BlogPostId -> Handler Html
+getPostDetailsR blogPostId = error "Not yet implemented: getPostDetailsR"

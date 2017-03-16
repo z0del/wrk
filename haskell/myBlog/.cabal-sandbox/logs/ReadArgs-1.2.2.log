@@ -1,0 +1,25 @@
+Configuring ReadArgs-1.2.2...
+Building ReadArgs-1.2.2...
+Preprocessing library ReadArgs-1.2.2...
+
+ReadArgs.hs:1:77: Warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+[1 of 1] Compiling ReadArgs         ( ReadArgs.hs, dist/dist-sandbox-6fc0c9a3/build/ReadArgs.o )
+In-place registering ReadArgs-1.2.2...
+Preprocessing executable 'ReadArgsEx' for ReadArgs-1.2.2...
+
+ReadArgs.hs:1:77: Warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+[1 of 2] Compiling ReadArgs         ( ReadArgs.hs, dist/dist-sandbox-6fc0c9a3/build/ReadArgsEx/ReadArgsEx-tmp/ReadArgs.o )
+[2 of 2] Compiling Main             ( ReadArgsEx.hs, dist/dist-sandbox-6fc0c9a3/build/ReadArgsEx/ReadArgsEx-tmp/Main.o )
+
+ReadArgs.hs:1:77: Warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+Linking dist/dist-sandbox-6fc0c9a3/build/ReadArgsEx/ReadArgsEx ...
+Creating package registration file:
+/tmp/pkgConf-ReadArgs-1.2430253414861543921.2
+Installing library in
+/home/human/Workspace/Haskell/myBlog/.cabal-sandbox/lib/x86_64-linux-ghc-7.10.3/ReadArgs-1.2.2-86uKgfhTW6m0r0OmXHuVzt
+Installing executable(s) in
+/home/human/Workspace/Haskell/myBlog/.cabal-sandbox/bin
+Registering ReadArgs-1.2.2...

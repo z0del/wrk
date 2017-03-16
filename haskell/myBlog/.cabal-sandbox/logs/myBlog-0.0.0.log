@@ -1,0 +1,36 @@
+Configuring myBlog-0.0.0...
+Building myBlog-0.0.0...
+Preprocessing library myBlog-0.0.0...
+[ 1 of 12] Compiling Model            ( Model.hs, dist/dist-sandbox-6fc0c9a3/build/Model.o )
+[ 2 of 12] Compiling Settings         ( Settings.hs, dist/dist-sandbox-6fc0c9a3/build/Settings.o )
+[ 3 of 12] Compiling Settings.StaticFiles ( Settings/StaticFiles.hs, dist/dist-sandbox-6fc0c9a3/build/Settings/StaticFiles.o )
+[ 4 of 12] Compiling Import.NoFoundation ( Import/NoFoundation.hs, dist/dist-sandbox-6fc0c9a3/build/Import/NoFoundation.o )
+[ 5 of 12] Compiling Foundation       ( Foundation.hs, dist/dist-sandbox-6fc0c9a3/build/Foundation.o )
+[ 6 of 12] Compiling Import           ( Import.hs, dist/dist-sandbox-6fc0c9a3/build/Import.o )
+[ 7 of 12] Compiling Handler.Common   ( Handler/Common.hs, dist/dist-sandbox-6fc0c9a3/build/Handler/Common.o )
+[ 8 of 12] Compiling Handler.Home     ( Handler/Home.hs, dist/dist-sandbox-6fc0c9a3/build/Handler/Home.o )
+[ 9 of 12] Compiling Handler.Comment  ( Handler/Comment.hs, dist/dist-sandbox-6fc0c9a3/build/Handler/Comment.o )
+[10 of 12] Compiling Handler.PostNew  ( Handler/PostNew.hs, dist/dist-sandbox-6fc0c9a3/build/Handler/PostNew.o )
+[11 of 12] Compiling Handler.PostDetails ( Handler/PostDetails.hs, dist/dist-sandbox-6fc0c9a3/build/Handler/PostDetails.o )
+[12 of 12] Compiling Application      ( Application.hs, dist/dist-sandbox-6fc0c9a3/build/Application.o )
+
+Application.hs:131:18: Warning:
+    In the use of `loadAppSettings'
+    (imported from Import, but defined in Yesod.Default.Config2):
+    Deprecated: "Use loadYamlSettings"
+
+Application.hs:141:17: Warning:
+    In the use of `loadAppSettingsArgs'
+    (imported from Import, but defined in Yesod.Default.Config2):
+    Deprecated: "Use loadYamlSettingsArgs"
+In-place registering myBlog-0.0.0...
+Preprocessing executable 'myBlog' for myBlog-0.0.0...
+[1 of 1] Compiling Main             ( app/main.hs, dist/dist-sandbox-6fc0c9a3/build/myBlog/myBlog-tmp/Main.o )
+Linking dist/dist-sandbox-6fc0c9a3/build/myBlog/myBlog ...
+Creating package registration file:
+/tmp/pkgConf-myBlog-0.05965166491189641421.0
+Installing library in
+/home/human/Workspace/Haskell/myBlog/.cabal-sandbox/lib/x86_64-linux-ghc-7.10.3/myBlog-0.0.0-LVZZFYkb4fbGaBoHr2RFvA
+Installing executable(s) in
+/home/human/Workspace/Haskell/myBlog/.cabal-sandbox/bin
+Registering myBlog-0.0.0...

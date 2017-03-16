@@ -1,0 +1,32 @@
+Configuring markdown-0.1.14...
+Building markdown-0.1.14...
+Preprocessing library markdown-0.1.14...
+[1 of 4] Compiling Text.Markdown.Types ( Text/Markdown/Types.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Text/Markdown/Types.o )
+
+Text/Markdown/Types.hs:9:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[2 of 4] Compiling Text.Markdown.Block ( Text/Markdown/Block.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Text/Markdown/Block.o )
+
+Text/Markdown/Block.hs:282:1: Warning:
+    Top-level binding with no type signature:
+      takeTillConsume :: forall t (m :: * -> *) o.
+                         Monad m =>
+                         (t -> Bool) -> ConduitM t o m (Maybe t, [t])
+[3 of 4] Compiling Text.Markdown.Inline ( Text/Markdown/Inline.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Text/Markdown/Inline.o )
+
+Text/Markdown/Inline.hs:14:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[4 of 4] Compiling Text.Markdown    ( Text/Markdown.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Text/Markdown.o )
+
+Text/Markdown.hs:42:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+In-place registering markdown-0.1.14...
+Installing library in
+/home/human/.stack/snapshots/x86_64-linux/lts-5.14/7.10.3/lib/x86_64-linux-ghc-7.10.3/markdown-0.1.14-GDrZj2TSHkx8wTsi14rFWS
+Registering markdown-0.1.14...

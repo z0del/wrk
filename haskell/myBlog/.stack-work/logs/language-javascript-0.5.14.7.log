@@ -1,0 +1,69 @@
+Configuring language-javascript-0.5.14.7...
+Building language-javascript-0.5.14.7...
+Preprocessing library language-javascript-0.5.14.7...
+unused terminals: 2
+shift/reduce conflicts:  135
+reduce/reduce conflicts: 199
+[ 1 of 12] Compiling Language.JavaScript.Parser.StringEscape ( src/Language/JavaScript/Parser/StringEscape.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Language/JavaScript/Parser/StringEscape.o )
+[ 2 of 12] Compiling Language.JavaScript.Parser.SrcLocation ( src/Language/JavaScript/Parser/SrcLocation.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Language/JavaScript/Parser/SrcLocation.o )
+[ 3 of 12] Compiling Language.JavaScript.Parser.Token ( src/Language/JavaScript/Parser/Token.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Language/JavaScript/Parser/Token.o )
+[ 4 of 12] Compiling Language.JavaScript.Parser.LexerUtils ( src/Language/JavaScript/Parser/LexerUtils.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Language/JavaScript/Parser/LexerUtils.o )
+[ 5 of 12] Compiling Language.JavaScript.Parser.ParserMonad ( src/Language/JavaScript/Parser/ParserMonad.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Language/JavaScript/Parser/ParserMonad.o )
+[ 6 of 12] Compiling Language.JavaScript.Parser.Lexer ( .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Language/JavaScript/Parser/Lexer.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Language/JavaScript/Parser/Lexer.o )
+
+src/Language/JavaScript/Parser/Lexer.x:426:19: Warning:
+    Defined but not used: ‘ws’
+
+src/Language/JavaScript/Parser/Lexer.x:592:19: Warning:
+    Defined but not used: ‘ap’
+
+templates/wrappers.hs:9:1: Warning:
+    The qualified import of ‘Control.Monad’ is redundant
+      except perhaps to import instances from ‘Control.Monad’
+    To import instances alone, use: import Control.Monad()
+
+templates/wrappers.hs:67:25: Warning: Defined but not used: ‘ps’
+
+templates/wrappers.hs:70:20: Warning: Defined but not used: ‘p’
+
+templates/wrappers.hs:70:24: Warning: Defined but not used: ‘bs’
+
+templates/wrappers.hs:70:27: Warning: Defined but not used: ‘s’
+
+templates/wrappers.hs:74:14: Warning: Defined but not used: ‘p’
+
+templates/wrappers.hs:74:16: Warning: Defined but not used: ‘c’
+
+templates/wrappers.hs:157:22: Warning: Defined but not used: ‘c’
+
+templates/wrappers.hs:219:19: Warning:
+    This binding for ‘s’ shadows the existing binding
+      bound at templates/wrappers.hs:218:12
+
+templates/wrappers.hs:222:29: Warning: Defined but not used: ‘s’
+
+templates/wrappers.hs:244:20: Warning: Defined but not used: ‘len’
+
+templates/wrappers.hs:258:6: Warning: Defined but not used: ‘input’
+
+templates/wrappers.hs:258:12: Warning: Defined but not used: ‘len’
+
+templates/wrappers.hs:262:12: Warning:
+    Defined but not used: ‘input’
+
+templates/wrappers.hs:262:18: Warning: Defined but not used: ‘len’
+[ 7 of 12] Compiling Language.JavaScript.Parser.ParseError ( src/Language/JavaScript/Parser/ParseError.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Language/JavaScript/Parser/ParseError.o )
+[ 8 of 12] Compiling Language.JavaScript.Parser.AST ( src/Language/JavaScript/Parser/AST.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Language/JavaScript/Parser/AST.o )
+[ 9 of 12] Compiling Language.JavaScript.Parser.Grammar5 ( .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Language/JavaScript/Parser/Grammar5.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Language/JavaScript/Parser/Grammar5.o )
+[10 of 12] Compiling Language.JavaScript.Parser.Parser ( src/Language/JavaScript/Parser/Parser.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Language/JavaScript/Parser/Parser.o )
+[11 of 12] Compiling Language.JavaScript.Pretty.Printer ( src/Language/JavaScript/Pretty/Printer.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Language/JavaScript/Pretty/Printer.o )
+
+src/Language/JavaScript/Pretty/Printer.hs:9:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[12 of 12] Compiling Language.JavaScript.Parser ( src/Language/JavaScript/Parser.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.8.0/build/Language/JavaScript/Parser.o )
+In-place registering language-javascript-0.5.14.7...
+Installing library in
+/home/human/.stack/snapshots/x86_64-linux/lts-5.14/7.10.3/lib/x86_64-linux-ghc-7.10.3/language-javascript-0.5.14.7-KruEjtUttmXAJAZQSo5Rlj
+Registering language-javascript-0.5.14.7...

@@ -1,0 +1,16 @@
+Configuring pem-0.2.2...
+Building pem-0.2.2...
+Preprocessing library pem-0.2.2...
+[1 of 4] Compiling Data.PEM.Types   ( Data/PEM/Types.hs, dist/dist-sandbox-6fc0c9a3/build/Data/PEM/Types.o )
+[2 of 4] Compiling Data.PEM.Writer  ( Data/PEM/Writer.hs, dist/dist-sandbox-6fc0c9a3/build/Data/PEM/Writer.o )
+[3 of 4] Compiling Data.PEM.Parser  ( Data/PEM/Parser.hs, dist/dist-sandbox-6fc0c9a3/build/Data/PEM/Parser.o )
+[4 of 4] Compiling Data.PEM         ( Data/PEM.hs, dist/dist-sandbox-6fc0c9a3/build/Data/PEM.o )
+
+Data/PEM.hs:11:1: Warning: Tab character
+
+Data/PEM.hs:14:1: Warning: Tab character
+In-place registering pem-0.2.2...
+Creating package registration file: /tmp/pkgConf-pem-0.21197352298915256190.2
+Installing library in
+/home/human/Workspace/Haskell/myBlog/.cabal-sandbox/lib/x86_64-linux-ghc-7.10.3/pem-0.2.2-68T9LQQkAB02O0OO4VHaxc
+Registering pem-0.2.2...

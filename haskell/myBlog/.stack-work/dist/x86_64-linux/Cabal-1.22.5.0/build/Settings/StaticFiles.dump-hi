@@ -1,0 +1,877 @@
+
+==================== FINAL INTERFACE ====================
+2016-05-05 14:48:25.740449 UTC
+
+interface myBlo_IG061QfCLdFHAMguwEWLVk:Settings.StaticFiles 7103
+  interface hash: c19783c93d20c682447fb7d9413e9fac
+  ABI hash: c9de284e0e403546a74cd59fca145e77
+  export-list hash: e07111ebf3c13b3d19eab9172c1efcc2
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: fd4a9a6bb21e81bc87c4972f51e07a6f
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  Settings.StaticFiles.baz_css
+  Settings.StaticFiles.css_bootstrap_css
+  Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot
+  Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg
+  Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf
+  Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff
+  Settings.StaticFiles.logo_old_png
+  Settings.StaticFiles.logo_png
+  Settings.StaticFiles.tamanho_png
+module dependencies: Settings
+package dependencies: ReadArgs-1.2.2@ReadA_6cFSpvK65fZLeOKMWH0GL4
+                      StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      adjunctions-4.3@adjun_9cH29t7MfJW4aX0z24PvBh
+                      aeson-0.9.0.1@aeson_DFvprtDBUdB2suCwa7lgtv
+                      aeson-compat-0.3.2.0@aeson_I6sLdLpsTWlBpPQ6k8hVao
+                      ansi-terminal-0.6.2.3@ansit_BDlVdfJGo3VHCIHxPTNjH1
+                      appar-0.1.4@appar_0ov5bpGH3STIB4U7WU8MFi
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      asn1-encoding-0.9.3@asn1e_A0jeMIoYyiZ4PSPkybrUpF
+                      asn1-parse-0.9.4@asn1p_LrLFPvrxagO8jGmFd1SmqK
+                      asn1-types-0.3.2@asn1t_BR43uodYA6j1oMVNuWbt5p
+                      async-2.1.0@async_KuqnF1GrhHK5nNp6Zzm3jy
+                      attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3
+                      auto-update-0.1.3.1@autou_JxODiy791X7A5hkNmGN2Ed base-4.8.2.0
+                      base16-bytestring-0.1.1.6@base1_LuxBhYgEONMHJnKTOPc7Oy
+                      base64-bytestring-1.0.0.1@base6_AkCk8zInckjJsyQ4AIFHPN
+                      base-compat-0.9.1@basec_3Zy8UsyHmBEEwbReR8x1KT
+                      base-orphans-0.5.4@baseo_0gFtKFBT26OGSKHmmdqdfx
+                      basic-prelude-0.5.1@basic_6MJWJCVkTz8FGKC6mXGpJH
+                      bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      blaze-html-0.8.1.1@blaze_1fCoF4onMJE2jDLBViwynk
+                      blaze-builder-0.4.0.2@blaze_5LQurmvTy7l9rPlWgPlNE4
+                      blaze-markup-0.7.0.3@blaze_JGtgJgx8yqB3DdKuU3sbgD
+                      byteable-0.1.1@bytea_38yjJsjDRm9KusCn8Yo4aB
+                      byteorder-1.0.4@byteo_6yQGE3rJo3bBqr3CFoBQ27
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      case-insensitive-1.2.0.6@casei_8joO9kPGMysIcGsv22FmhM
+                      cereal-0.5.1.0@cerea_843xOxvPj94HAJ9SD4EJuq
+                      chunked-data-0.2.0@chunk_EAy8NibgHTSDpZrM8uyA6o
+                      cipher-aes-0.2.11@ciphe_8XNwNKI71EdCLNQ4WGdMQq
+                      classy-prelude-yesod-0.12.7@class_0wrG3GT9yLn2V9rxymUD3B
+                      classy-prelude-0.12.7@class_3R776uRoSPG5joMjoZAPrW
+                      classy-prelude-conduit-0.12.7@class_EdzzbbBH3W89yShhiwXXf6
+                      clientsession-0.9.1.1@clien_5voyFsgo1EG4Zcy2KTreld
+                      comonad-4.2.7.2@comon_ANDyj4wNB0X1DshTxn1Ec7
+                      conduit-1.2.6.4@condu_1EneW8yRsjj18l2EfcgLyu
+                      conduit-combinators-1.0.3.1@condu_JKMGcWcFGFA2sFIrnxo4bk
+                      conduit-extra-1.1.13.1@condu_K5a53Tkcwf93kOHQXIVa9v
+                      connection-0.2.5@conne_CPlZYPymstgEi3k2iqPu1A
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      contravariant-1.4@contr_GjopTtscFPI3wCyb9R8zUx
+                      cookie-0.4.2@cooki_HgYmE0LnTLQI3ZHrNmxIUf
+                      cprng-aes-0.6.1@cprng_FqpwhJtWO8g27pB5PJZtIq
+                      crypto-api-0.13.2@crypt_2BEYKdRP8nrKGHynW1FWqA
+                      cryptohash-0.11.6@crypt_3Cwvwq9ssRY1dmVI1qI6C2
+                      crypto-random-0.0.9@crypt_7BiCOK9v78J36YeClUc9KE
+                      cryptohash-conduit-0.1.1@crypt_821POYnlwddKxIrqPneQYZ
+                      crypto-cipher-types-0.0.9@crypt_AkbdiYWeXYI5D4jAOMIXve
+                      cryptonite-0.15@crypt_L54bEzjjfqRAdndSHnCcSo
+                      css-text-0.1.2.1@csste_DCmJgQlbndx5J1dp3gjSY0
+                      data-default-instances-base-0.0.1@datad_Bh5w1rt638k3gekgUnZ9Qe
+                      data-default-0.5.3@datad_DLQPsKM7BNMFfKH45X8LEe
+                      data-default-instances-dlist-0.0.1@datad_IV2dTGx3Pj09NowR0FWGzk
+                      data-default-instances-containers-0.0.1@datad_IvTKAI579b047LLJfQOYbY
+                      data-default-class-0.0.1@datad_K91y8NcZUJI9yaBI61rgdD
+                      data-default-instances-old-locale-0.0.1@datad_LQTewb1b5hK22W4h2rIWVQ
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      directory-1.2.2.0@direc_0hFG6ZxK1nk4zsyOqbNHfm
+                      distributive-0.5.0.2@distr_55SIdsoyihS4jXBaaVvPQX
+                      dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui
+                      dlist-instances-0.1@dlist_DzoO0ir6YuEEKWgnOxUPdi
+                      easy-file-0.2.1@easyf_IjQ6MMskJyDEpOwcfCdF0G
+                      email-validate-2.2.0@email_852PUaAoFuMCJCuSp1iWYg
+                      enclosed-exceptions-1.0.1.1@enclo_61GxiLion2dCYbPqCQEfDj
+                      entropy-0.3.7@entro_7gYJ61Ci0NNBp8LB4CGmrG
+                      exceptions-0.8.2.1@excep_6lgwjdgwblY7rzh5s6SLd8
+                      fast-logger-2.4.5@fastl_7EbVwtKgfIp7Dz8DZ2fSbo
+                      file-embed-0.0.10@filee_BNyHeBYneTRAp0kIbc1T1P
+                      filepath-1.4.0.0@filep_Ey7a1in9roBAE8bUFJ5R9m
+                      free-4.12.4@free_6zsT0eU8oWW5hSQkbU0iac ghc-prim-0.4.0.0
+                      hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I
+                      hourglass-0.2.10@hourg_LCfvpegcEVDEeuH0foNCGl
+                      http2-1.4.5@http2_DoxR3dWy5TOCdpHywL3J3q
+                      http-api-data-0.2.2@httpa_3kiLcpdXTUe4CYRpIoinpP
+                      http-conduit-2.1.10@httpc_GhR0bWaf6QcK4bv8TSDfYY
+                      http-client-tls-0.2.4@httpc_IDaT9R5ualJH8nkIuob0gS
+                      http-client-0.4.28@httpc_KOR3skrgzbXGs0H4TPJO7d
+                      http-date-0.0.6.1@httpd_5DCnWjYhsQa9SYTqbDecLX
+                      http-types-0.9@httpt_GVuxyBdW2yt88cWrjZfRWC integer-gmp-1.0.0.0
+                      iproute-1.7.0@iprou_51qGM7UdLbAGjwdVd1zynT
+                      kan-extensions-4.2.3@kanex_93YChxpKCPfJOIja4yoAht
+                      keys-3.11@keys_K60lYwyibCxDqddDC3Eu8A
+                      lifted-base-0.2.3.6@lifte_DoOvgrTvmEtENHs0ypaZTR
+                      memory-0.11@memor_0EiEBIg44i8KGjAeoKnPDs
+                      mime-types-0.1.0.7@mimet_EkzgPOw2pX43Kgu0zxtOKD
+                      mmorph-1.0.6@mmorp_42KUkOfzC6q3qCtAMiSHam
+                      monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS
+                      monad-logger-0.3.18@monad_F14WoEERnInG1mlgWNKXjm
+                      monad-loops-0.4.3@monad_LQiHRUYhFhYBU7nOOWDOrb
+                      mono-traversable-0.10.2@monot_H8KTtbZdYctIuu4oYwulw6
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      mutable-containers-0.3.2.1@mutab_CV6GLY9ePAIJvWpAeaZzZT
+                      mwc-random-0.13.4.0@mwcra_0lrQ1SkkNA85sa8eZ98xQk
+                      network-2.6.2.1@netwo_A6pE0dLgMEk2GtUa1JtTJQ
+                      network-uri-2.6.1.0@netwo_DarCcUHK1BCJHlIYOjXe67
+                      old-locale-1.0.0.7@oldlo_7h2Gx6mVPJ5Gheca8j9Mpe
+                      old-time-1.1.0.3@oldti_JVjJvknZJ0JKghfag2Jw2L
+                      parsec-3.1.9@parse_7aUabKPjr5W6Al5Ge35AQl
+                      path-pieces-0.2.1@pathp_4qW9xznk5mC6aJZVVgmWEO
+                      pem-0.2.2@pem_68T9LQQkAB02O0OO4VHaxc
+                      persistent-template-2.1.8@persi_1YstQuqbhQq3eJByTyjnHX
+                      persistent-sqlite-2.2.1@persi_2oZxCHdcTnVEoe52IflmwF
+                      persistent-2.2.4.1@persi_3s73nN6hgVFJ8EHwgLnxcn
+                      pointed-4.2.0.2@point_9sEXBlHmRToHa7d51W4kyh
+                      prelude-extras-0.4.0.3@prelu_1gQpKVfMHul71LsAFgGRhv
+                      pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      process-1.2.3.0@proce_52AgREEfSrnJLlkGV9YZZJ
+                      profunctors-5.2@profu_3mp9Et5di2eBw26qSk1FvQ
+                      psqueues-0.2.2.1@psque_AvLcbKUIB1yCm8wZoS0YR7
+                      random-1.1@rando_9Kgekc9yEaLHLNUuw6paWL
+                      resourcet-1.1.7.3@resou_0TYP6GHqv9b1qNv0xS98eJ
+                      resource-pool-0.2.3.2@resou_BPzNUl5kJsI1qo7V284Tgq
+                      safe-0.3.9@safe_Eus5OohxO2XHvdWxKAmhFS
+                      scientific-0.3.4.6@scien_5s26qRhE5w04kI4pP1Rtwm
+                      securemem-0.1.9@secur_ArobkR9k7uwJiSXmFUrDYT
+                      semigroups-0.18.1@semig_G8J7ers5FBV50jV0jAmDo0
+                      semigroupoids-5.0.1@semig_GGZAZT6nvE937zJVPqetuF
+                      shakespeare-2.0.8.2@shake_7VYGAcSKdrrBmHx0MGxhaZ
+                      silently-1.2.5@silen_5nVdOe0bUXfLPEbxHJT4m4
+                      simple-sendfile-0.2.21@simpl_1s4YZSsjn6TCbK7MVn1EXz
+                      skein-1.0.9.4@skein_Er8QdQfWtp79PgFByyaiMF
+                      socks-0.5.4@socks_BZJ6e1EePGtK56UKTxGOcA
+                      split-0.2.3@split_CDzOynTh4l8Ahg1HaWUL4Z
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      stm-chans-3.0.0.4@stmch_4ac5OLG4E0w1rpuIDCribD
+                      streaming-commons-0.1.15.4@strea_FDgjqa6CVPZ2zy4YbsUfKW
+                      stringsearch-0.3.6.6@strin_CAOAc0sCfAC9gi7YClo2KY
+                      system-filepath-0.4.13.4@syste_0e3pMPmZzix21iFp2U03Lc
+                      tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6
+                      tagsoup-0.13.9@tagso_3I5x83DoCVBIz4INMBLU3R
+                      template-haskell-2.10.0.0 text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      time-locale-compat-0.1.1.1@timel_Ciz7M1U3da73rRwCjRF3Np
+                      tls-1.3.5@tls_BLj5e033gbt9i7tk5Yps1o
+                      transformers-base-0.4.4@trans_74WedXVmfaHHDJItmBRTVp
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      unix-2.7.1.0@unix_KZL8h98IqDM57kQSPo1mKx
+                      unix-compat-0.4.1.4@unixc_Km8uiabmElX5mrb8D4Fywe
+                      unix-time-0.3.6@unixt_4DXmhADld9WFju1Q636Hdx
+                      unordered-containers-0.2.5.1@unord_Kh4ayEkEku2Hr3yyCwld2j
+                      utf8-string-1.0.1.1@utf8s_L8eKHa7Iv9q7FVKUYW6u4b
+                      vault-0.3.0.6@vault_8aId1RjvIBs9AcRd6Dlytd
+                      vector-algorithms-0.7.0.1@vecto_2O3XZ6glbAwDmJCc3dC3Ee
+                      vector-instances-3.3.1@vecto_845LIf6gX4KCXOevED3Jnk
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+                      wai-3.2.1@wai_0sX35KG3ls0DbfkAiL2KUt
+                      wai-app-static-3.1.5@waiap_GvcjPennmGr8pi7bwAoBlW
+                      wai-extra-3.0.15.1@waiex_HVeMJPtNVePGVRPKEHPQr1
+                      wai-logger-2.2.7@wailo_IcrrlFmNXauB4UPZCjpd6d
+                      warp-3.2.2@warp_AahrN39wH0hHc9O5rjZ6vl
+                      word8-0.1.2@word8_6yKBsGbmsbLB2UCORShr75
+                      x509-1.6.3@x509_4sohhVXlbMC8SF2GurdHkx
+                      x509-system-1.6.3@x509s_0Oviz41trO97jvoyFU0qDJ
+                      x509-store-1.6.1@x509s_6Wx59kr9xRdIuL4Mc7bQEk
+                      x509-validation-1.6.3@x509v_3l4xKAMlxjiKNrLsfSSUwO
+                      xml-conduit-1.3.4.2@xmlco_AQbRMAGVOZVF9hzRguQuqW
+                      xml-types-0.3.6@xmlty_Ig8FQkC5nvD44nK4uZknsI
+                      xss-sanitize-0.3.5.7@xsssa_1xOkYBWysHDFpCHMd3AfbR
+                      yaml-0.8.17.1@yaml_CQqYkPDsrNU0KjJVlbrxLm
+                      yesod-newsfeed-1.5@yesod_1zwErDEgrvDEi9v2PTJqSN
+                      yesod-core-1.4.20.2@yesod_29kqyikkwsMEYxI3Ma06th
+                      yesod-1.4.3@yesod_3jIdEn8zAkXAkLgjeDRLbF
+                      yesod-static-1.5.0.3@yesod_8pNRplMrDA33lWABw0vm9E
+                      yesod-form-1.4.7.1@yesod_FpUM6RmBwEg1kXFnLMKTSu
+                      yesod-persistent-1.4.0.5@yesod_HW3NzezVHDg7dZuG9jbAGD
+                      zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu
+orphans: aeson-0.9.0.1@aeson_DFvprtDBUdB2suCwa7lgtv:Data.Aeson.Types.Generic
+         aeson-0.9.0.1@aeson_DFvprtDBUdB2suCwa7lgtv:Data.Aeson.Types.Instances
+         aeson-compat-0.3.2.0@aeson_I6sLdLpsTWlBpPQ6k8hVao:Data.Aeson.Compat
+         attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3:Data.Attoparsec.Text.Internal
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         base-orphans-0.5.4@baseo_0gFtKFBT26OGSKHmmdqdfx:Data.Orphans
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         crypto-api-0.13.2@crypt_2BEYKdRP8nrKGHynW1FWqA:Crypto.Classes
+         data-default-instances-base-0.0.1@datad_Bh5w1rt638k3gekgUnZ9Qe:Data.Default.Instances.Base
+         data-default-instances-dlist-0.0.1@datad_IV2dTGx3Pj09NowR0FWGzk:Data.Default.Instances.DList
+         data-default-instances-containers-0.0.1@datad_IvTKAI579b047LLJfQOYbY:Data.Default.Instances.Containers
+         data-default-instances-old-locale-0.0.1@datad_LQTewb1b5hK22W4h2rIWVQ:Data.Default.Instances.OldLocale
+         dlist-instances-0.1@dlist_DzoO0ir6YuEEKWgnOxUPdi:Data.DList.Instances
+         hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I:Data.Hashable.Generic
+         http-client-0.4.28@httpc_KOR3skrgzbXGs0H4TPJO7d:Network.HTTP.Client.Request
+         network-2.6.2.1@netwo_A6pE0dLgMEk2GtUa1JtTJQ:Network.Socket
+         network-2.6.2.1@netwo_A6pE0dLgMEk2GtUa1JtTJQ:Network.Socket.Types
+         persistent-template-2.1.8@persi_1YstQuqbhQq3eJByTyjnHX:Database.Persist.TH
+         persistent-2.2.4.1@persi_3s73nN6hgVFJ8EHwgLnxcn:Database.Persist.Sql.Orphan.PersistQuery
+         persistent-2.2.4.1@persi_3s73nN6hgVFJ8EHwgLnxcn:Database.Persist.Sql.Orphan.PersistStore
+         persistent-2.2.4.1@persi_3s73nN6hgVFJ8EHwgLnxcn:Database.Persist.Sql.Orphan.PersistUnique
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         system-filepath-0.4.13.4@syste_0e3pMPmZzix21iFp2U03Lc:Filesystem.Path
+         system-filepath-0.4.13.4@syste_0e3pMPmZzix21iFp2U03Lc:Filesystem.Path.CurrentOS
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         unix-time-0.3.6@unixt_4DXmhADld9WFju1Q636Hdx:Data.UnixTime.Diff
+         vector-instances-3.3.1@vecto_845LIf6gX4KCXOevED3Jnk:Data.Vector.Instances
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+family instance modules: adjunctions-4.3@adjun_9cH29t7MfJW4aX0z24PvBh:Data.Functor.Rep
+                         attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3:Data.Attoparsec.Internal.Types
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         base-4.8.2.0:GHC.TypeLits
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Biff
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Clown
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Flip
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Join
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Joker
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Product
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Sum
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Tannen
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Wrapped
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui:Data.DList
+                         email-validate-2.2.0@email_852PUaAoFuMCJCuSp1iWYg:Text.Email.Parser
+                         http-client-0.4.28@httpc_KOR3skrgzbXGs0H4TPJO7d:Network.HTTP.Client
+                         iproute-1.7.0@iprou_51qGM7UdLbAGjwdVd1zynT:Data.IP.Addr
+                         iproute-1.7.0@iprou_51qGM7UdLbAGjwdVd1zynT:Data.IP.Range
+                         keys-3.11@keys_K60lYwyibCxDqddDC3Eu8A:Data.Key
+                         monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS:Control.Monad.Trans.Control
+                         monad-logger-0.3.18@monad_F14WoEERnInG1mlgWNKXjm:Control.Monad.Logger
+                         mono-traversable-0.10.2@monot_H8KTtbZdYctIuu4oYwulw6:Data.Containers
+                         mono-traversable-0.10.2@monot_H8KTtbZdYctIuu4oYwulw6:Data.MinLen
+                         mono-traversable-0.10.2@monot_H8KTtbZdYctIuu4oYwulw6:Data.MonoTraversable
+                         mono-traversable-0.10.2@monot_H8KTtbZdYctIuu4oYwulw6:Data.Sequences
+                         mutable-containers-0.3.2.1@mutab_CV6GLY9ePAIJvWpAeaZzZT:Data.Mutable.BRef
+                         mutable-containers-0.3.2.1@mutab_CV6GLY9ePAIJvWpAeaZzZT:Data.Mutable.Class
+                         mutable-containers-0.3.2.1@mutab_CV6GLY9ePAIJvWpAeaZzZT:Data.Mutable.DLList
+                         mutable-containers-0.3.2.1@mutab_CV6GLY9ePAIJvWpAeaZzZT:Data.Mutable.Deque
+                         mutable-containers-0.3.2.1@mutab_CV6GLY9ePAIJvWpAeaZzZT:Data.Mutable.PRef
+                         mutable-containers-0.3.2.1@mutab_CV6GLY9ePAIJvWpAeaZzZT:Data.Mutable.SRef
+                         mutable-containers-0.3.2.1@mutab_CV6GLY9ePAIJvWpAeaZzZT:Data.Mutable.URef
+                         mwc-random-0.13.4.0@mwcra_0lrQ1SkkNA85sa8eZ98xQk:System.Random.MWC
+                         network-uri-2.6.1.0@netwo_DarCcUHK1BCJHlIYOjXe67:Network.URI
+                         persistent-sqlite-2.2.1@persi_2oZxCHdcTnVEoe52IflmwF:Database.Persist.Sqlite
+                         persistent-2.2.4.1@persi_3s73nN6hgVFJ8EHwgLnxcn:Database.Persist.Class.PersistConfig
+                         persistent-2.2.4.1@persi_3s73nN6hgVFJ8EHwgLnxcn:Database.Persist.Sql.Orphan.PersistStore
+                         pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         resourcet-1.1.7.3@resou_0TYP6GHqv9b1qNv0xS98eJ:Control.Monad.Trans.Resource.Internal
+                         semigroups-0.18.1@semig_G8J7ers5FBV50jV0jAmDo0:Data.List.NonEmpty
+                         semigroups-0.18.1@semig_G8J7ers5FBV50jV0jAmDo0:Data.Semigroup
+                         shakespeare-2.0.8.2@shake_7VYGAcSKdrrBmHx0MGxhaZ:Text.Css
+                         shakespeare-2.0.8.2@shake_7VYGAcSKdrrBmHx0MGxhaZ:Text.Shakespeare
+                         tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6:Data.Tagged
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         unordered-containers-0.2.5.1@unord_Kh4ayEkEku2Hr3yyCwld2j:Data.HashMap.Base
+                         unordered-containers-0.2.5.1@unord_Kh4ayEkEku2Hr3yyCwld2j:Data.HashSet
+                         vector-instances-3.3.1@vecto_845LIf6gX4KCXOevED3Jnk:Data.Vector.Instances
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Storable
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
+                         xml-types-0.3.6@xmlty_Ig8FQkC5nvD44nK4uZknsI:Data.XML.Types
+                         yesod-core-1.4.20.2@yesod_29kqyikkwsMEYxI3Ma06th:Yesod.Core.Class.Handler
+                         yesod-core-1.4.20.2@yesod_29kqyikkwsMEYxI3Ma06th:Yesod.Core.Internal.LiteApp
+                         yesod-core-1.4.20.2@yesod_29kqyikkwsMEYxI3Ma06th:Yesod.Core.Types
+                         yesod-static-1.5.0.3@yesod_8pNRplMrDA33lWABw0vm9E:Yesod.Static
+                         zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu:Codec.Compression.Zlib.Stream
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  Settings c2ac9d6b604f25dd1e3c1f2905a5757c
+  exports: 66b991b57a4227ad020336d4f77481b4
+  appStaticDir 24f08c17b831643969f219b0d75e3e82
+  compileTimeAppSettings 370bd6bd7f742f1a8054fde9914e498b
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text e078666d8af3db638df624950dd60de0
+import  -/  yesod-static-1.5.0.3@yesod_8pNRplMrDA33lWABw0vm9E:Yesod.Static fbc70e419b2fc0bbc7ae64aacf7d0460
+811108a9781a9068abbf7071aab023db
+  baz_css :: Yesod.Static.StaticRoute
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Settings.StaticFiles.baz_css1
+                  `cast`
+                (Sub (Sym (Yesod.Static.TFCo:R:RouteStatic[0]))) -}
+47671d054cc545870e204e79f4dd6118
+  baz_css1 :: Yesod.Static.R:RouteStatic
+  {- Strictness: m,
+     Unfolding: (Yesod.Static.StaticRoute
+                   Settings.StaticFiles.baz_css6
+                   Settings.StaticFiles.baz_css2) -}
+6cc11f717ac6385f0d51d8d3bc13dbb7
+  baz_css10 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 4) -}
+cd80de4f5863ea1da736e2e28fc6299b
+  baz_css11 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+fce37be702b3ad2af45bcb747cafc8be
+  baz_css2 :: [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                   Settings.StaticFiles.baz_css3
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text, Data.Text.Internal.Text))) -}
+4871d35613da71cd6bc03060811d9173
+  baz_css3 :: (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Strictness: m,
+     Unfolding: ((Settings.StaticFiles.baz_css5,
+                  Settings.StaticFiles.baz_css4)) -}
+0823699d86e808fd7c5571c7d94f5ad0
+  baz_css4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "gL17jQIT"#) -}
+22d005ff5f3f9793537a187797b7f7f8
+  baz_css5 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "etag"#) -}
+eaff947b6be366ef978689b4b05aa078
+  baz_css6 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.baz_css7
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+41e41896a7c6ee3692ed95e91dbd9bef
+  baz_css7 :: Data.Text.Internal.Text
+  {- Unfolding: (GHC.ST.runSTRep
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.baz_css8) -}
+ccc6aaf33c25ec0014b623bc80a47c25
+  baz_css8 ::
+    GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                 case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                 Settings.StaticFiles.baz_css11
+                   @ s1
+                   (Data.Text.Array.MArray @ s1 ipv1)
+                   Settings.StaticFiles.baz_css10
+                   Settings.StaticFiles.baz_css9
+                   0
+                   ipv }) -}
+5c32592ec1b0dad2b4a6ab138c23f962
+  baz_css9 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "baz.css"#) -}
+500b11759fb1ce7c0678610b8ebb9b94
+  css_bootstrap_css :: Yesod.Static.StaticRoute
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Settings.StaticFiles.css_bootstrap_css1
+                  `cast`
+                (Sub (Sym (Yesod.Static.TFCo:R:RouteStatic[0]))) -}
+37a852572bcc1a1517f308387074e27c
+  css_bootstrap_css1 :: Yesod.Static.R:RouteStatic
+  {- Strictness: m,
+     Unfolding: (Yesod.Static.StaticRoute
+                   Settings.StaticFiles.css_bootstrap_css5
+                   Settings.StaticFiles.css_bootstrap_css2) -}
+65b933f2ed195831976f440e7b5242ed
+  css_bootstrap_css2 ::
+    [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                   Settings.StaticFiles.css_bootstrap_css3
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text, Data.Text.Internal.Text))) -}
+aa9d839d5ea2490639cd3e1f6f0d0344
+  css_bootstrap_css3 ::
+    (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Strictness: m,
+     Unfolding: ((Settings.StaticFiles.baz_css5,
+                  Settings.StaticFiles.css_bootstrap_css4)) -}
+14c99b0ed1504d27d0c13ec1b0aa6b48
+  css_bootstrap_css4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "QRP3qj9r"#) -}
+0cb6963d8027b5909e6e5cd04b0ebb62
+  css_bootstrap_css5 :: [Data.Text.Internal.Text]
+  {- Unfolding: (GHC.Base.map
+                   @ [GHC.Types.Char]
+                   @ Data.Text.Internal.Text
+                   Data.Text.pack
+                   Settings.StaticFiles.css_bootstrap_css6) -}
+9ba2e9bef2ee70f81381e9385959fdc9
+  css_bootstrap_css6 :: [GHC.Base.String]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Base.String
+                   Settings.StaticFiles.css_bootstrap_css9
+                   Settings.StaticFiles.css_bootstrap_css7) -}
+9f2ca03da78830aa6f406bb06a158673
+  css_bootstrap_css7 :: [GHC.Base.String]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Base.String
+                   Settings.StaticFiles.css_bootstrap_css8
+                   (GHC.Types.[] @ GHC.Base.String)) -}
+e515f30daa746918d69dd51dccadb4c0
+  css_bootstrap_css8 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "bootstrap.css"#) -}
+eb34f2fe2160fc96e58c084bd502a89d
+  css_bootstrap_css9 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "css"#) -}
+6a78b730bfd309e750d9f35b2e4c3bd0
+  fonts_glyphicons_halflings_regular_eot :: Yesod.Static.StaticRoute
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot1
+                  `cast`
+                (Sub (Sym (Yesod.Static.TFCo:R:RouteStatic[0]))) -}
+629be88d51d871bb92d5991c6e8251a3
+  fonts_glyphicons_halflings_regular_eot1 ::
+    Yesod.Static.R:RouteStatic
+  {- Strictness: m,
+     Unfolding: (Yesod.Static.StaticRoute
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot5
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot2) -}
+3e1a390d6eed647f968227a9151d8b99
+  fonts_glyphicons_halflings_regular_eot2 ::
+    [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot3
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text, Data.Text.Internal.Text))) -}
+e6aac389cac679fe8b0d9bda3d466086
+  fonts_glyphicons_halflings_regular_eot3 ::
+    (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Strictness: m,
+     Unfolding: ((Settings.StaticFiles.baz_css5,
+                  Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot4)) -}
+04da1cc70486c04d55192f9479b3a030
+  fonts_glyphicons_halflings_regular_eot4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "etF8YIXe"#) -}
+04c313bd9470e77079f71e5a9d60eabd
+  fonts_glyphicons_halflings_regular_eot5 ::
+    [Data.Text.Internal.Text]
+  {- Unfolding: (GHC.Base.map
+                   @ [GHC.Types.Char]
+                   @ Data.Text.Internal.Text
+                   Data.Text.pack
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot6) -}
+9fe7b29708ecaaaf73639a37c7a909ca
+  fonts_glyphicons_halflings_regular_eot6 :: [GHC.Base.String]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Base.String
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot9
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot7) -}
+6f25b5b0b22c4937ab792ce3a20a7da2
+  fonts_glyphicons_halflings_regular_eot7 :: [GHC.Base.String]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Base.String
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot8
+                   (GHC.Types.[] @ GHC.Base.String)) -}
+b609a1d83e571e4f43b7ab2494961fa4
+  fonts_glyphicons_halflings_regular_eot8 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "glyphicons-halflings-regular.eot"#) -}
+071c16e27fb302fc099be19639370cf0
+  fonts_glyphicons_halflings_regular_eot9 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "fonts"#) -}
+d1a14f4b4a774db0b411d7e4644dd995
+  fonts_glyphicons_halflings_regular_svg :: Yesod.Static.StaticRoute
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg1
+                  `cast`
+                (Sub (Sym (Yesod.Static.TFCo:R:RouteStatic[0]))) -}
+831ece648bd8c68f86d666804feaff48
+  fonts_glyphicons_halflings_regular_svg1 ::
+    Yesod.Static.R:RouteStatic
+  {- Strictness: m,
+     Unfolding: (Yesod.Static.StaticRoute
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg5
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg2) -}
+bbc26efe848910727fa5d07d5db5e829
+  fonts_glyphicons_halflings_regular_svg2 ::
+    [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg3
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text, Data.Text.Internal.Text))) -}
+2f9b8ea83bf54d510d21f7fd36cf5cdc
+  fonts_glyphicons_halflings_regular_svg3 ::
+    (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Strictness: m,
+     Unfolding: ((Settings.StaticFiles.baz_css5,
+                  Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg4)) -}
+fa66fbdaa1052b5478aaa09b640e8597
+  fonts_glyphicons_halflings_regular_svg4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "MpQdYzAE"#) -}
+cb7626ce5e2ee3d4b0a6876bf5409835
+  fonts_glyphicons_halflings_regular_svg5 ::
+    [Data.Text.Internal.Text]
+  {- Unfolding: (GHC.Base.map
+                   @ [GHC.Types.Char]
+                   @ Data.Text.Internal.Text
+                   Data.Text.pack
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg6) -}
+d1f2adcb03e9fc40bb810ef5a4ee3420
+  fonts_glyphicons_halflings_regular_svg6 :: [GHC.Base.String]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Base.String
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot9
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg7) -}
+65bd5136226fd9070bd8b33e8de66f5e
+  fonts_glyphicons_halflings_regular_svg7 :: [GHC.Base.String]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Base.String
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg8
+                   (GHC.Types.[] @ GHC.Base.String)) -}
+07ac3debc4793a52b53b410e8cc726b2
+  fonts_glyphicons_halflings_regular_svg8 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "glyphicons-halflings-regular.svg"#) -}
+b3cb644bf4eeca06d41a2d1c596f5302
+  fonts_glyphicons_halflings_regular_ttf :: Yesod.Static.StaticRoute
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf1
+                  `cast`
+                (Sub (Sym (Yesod.Static.TFCo:R:RouteStatic[0]))) -}
+4c3f75380e686c330e107a6094f3e574
+  fonts_glyphicons_halflings_regular_ttf1 ::
+    Yesod.Static.R:RouteStatic
+  {- Strictness: m,
+     Unfolding: (Yesod.Static.StaticRoute
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf5
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf2) -}
+b7c1d2d9a1eaf1e38bf56cf5eafbc95d
+  fonts_glyphicons_halflings_regular_ttf2 ::
+    [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf3
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text, Data.Text.Internal.Text))) -}
+51e9271b608495155405d1a95e757d93
+  fonts_glyphicons_halflings_regular_ttf3 ::
+    (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Strictness: m,
+     Unfolding: ((Settings.StaticFiles.baz_css5,
+                  Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf4)) -}
+4584a4737dfdf7e82ece15e87a397d4c
+  fonts_glyphicons_halflings_regular_ttf4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "5J1S50t2"#) -}
+58408f4d7e94bf05ebe446779355b423
+  fonts_glyphicons_halflings_regular_ttf5 ::
+    [Data.Text.Internal.Text]
+  {- Unfolding: (GHC.Base.map
+                   @ [GHC.Types.Char]
+                   @ Data.Text.Internal.Text
+                   Data.Text.pack
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf6) -}
+665dcaf87fa854eea995c509fe262563
+  fonts_glyphicons_halflings_regular_ttf6 :: [GHC.Base.String]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Base.String
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot9
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf7) -}
+58c6f35471006781924f1a341bbcff27
+  fonts_glyphicons_halflings_regular_ttf7 :: [GHC.Base.String]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Base.String
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf8
+                   (GHC.Types.[] @ GHC.Base.String)) -}
+7706615116419b0f5aae0a9aa82ffe2f
+  fonts_glyphicons_halflings_regular_ttf8 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "glyphicons-halflings-regular.ttf"#) -}
+5d2c7aa14dc26e0145a44b1059b5b688
+  fonts_glyphicons_halflings_regular_woff :: Yesod.Static.StaticRoute
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff1
+                  `cast`
+                (Sub (Sym (Yesod.Static.TFCo:R:RouteStatic[0]))) -}
+ec39f6ee3b82f0022e8836eb3f2a8c4e
+  fonts_glyphicons_halflings_regular_woff1 ::
+    Yesod.Static.R:RouteStatic
+  {- Strictness: m,
+     Unfolding: (Yesod.Static.StaticRoute
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff5
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff2) -}
+585adec0f9bf719f9e11b696f0c49931
+  fonts_glyphicons_halflings_regular_woff2 ::
+    [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff3
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text, Data.Text.Internal.Text))) -}
+58ea2f2fc52f271415ee4e57874ae437
+  fonts_glyphicons_halflings_regular_woff3 ::
+    (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Strictness: m,
+     Unfolding: ((Settings.StaticFiles.baz_css5,
+                  Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff4)) -}
+d8605dafe60c8d88371af0950725e483
+  fonts_glyphicons_halflings_regular_woff4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "aO0drAa_"#) -}
+493d38bb4c17de0ef5a9787df62dce9c
+  fonts_glyphicons_halflings_regular_woff5 ::
+    [Data.Text.Internal.Text]
+  {- Unfolding: (GHC.Base.map
+                   @ [GHC.Types.Char]
+                   @ Data.Text.Internal.Text
+                   Data.Text.pack
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff6) -}
+5e081b84b7ac3ae9aebec89fdb9cb0cb
+  fonts_glyphicons_halflings_regular_woff6 :: [GHC.Base.String]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Base.String
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot9
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff7) -}
+ea7dae0100e6abc4b6902e27c7198e1e
+  fonts_glyphicons_halflings_regular_woff7 :: [GHC.Base.String]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Base.String
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff8
+                   (GHC.Types.[] @ GHC.Base.String)) -}
+d0f888e30792d0c4981ce01119f8d318
+  fonts_glyphicons_halflings_regular_woff8 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "glyphicons-halflings-regular.woff"#) -}
+86cdc8fa5a1a4315f02c648c80c7233e
+  logo_old_png :: Yesod.Static.StaticRoute
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Settings.StaticFiles.logo_old_png1
+                  `cast`
+                (Sub (Sym (Yesod.Static.TFCo:R:RouteStatic[0]))) -}
+36659928998262eed0bfaf2cca299ce3
+  logo_old_png1 :: Yesod.Static.R:RouteStatic
+  {- Strictness: m,
+     Unfolding: (Yesod.Static.StaticRoute
+                   Settings.StaticFiles.logo_old_png5
+                   Settings.StaticFiles.logo_old_png2) -}
+8f42bf78da2fa82d209899173c2d75ea
+  logo_old_png2 ::
+    [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                   Settings.StaticFiles.logo_old_png3
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text, Data.Text.Internal.Text))) -}
+37ad28520d2df26ba87f32e5e438b9a5
+  logo_old_png3 :: (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Strictness: m,
+     Unfolding: ((Settings.StaticFiles.baz_css5,
+                  Settings.StaticFiles.logo_old_png4)) -}
+8a0283a2f0a91a193b5398193429db29
+  logo_old_png4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "wDMuBNxv"#) -}
+d548fde03e3d37e93825e581a0072b84
+  logo_old_png5 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.logo_old_png6
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+d9cbdc132a12bca7c404aa50c6636904
+  logo_old_png6 :: Data.Text.Internal.Text
+  {- Unfolding: (GHC.ST.runSTRep
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.logo_old_png7) -}
+f19f14ab61104523bd11e4d7140cfea9
+  logo_old_png7 ::
+    GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                 case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                 Settings.StaticFiles.logo_old_png9
+                   @ s1
+                   (Data.Text.Array.MArray @ s1 ipv1)
+                   Settings.StaticFiles.baz_css10
+                   Settings.StaticFiles.logo_old_png8
+                   0
+                   ipv }) -}
+d79aee86648820eed754c2b1204a4ba5
+  logo_old_png8 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "logo_old.png"#) -}
+0c4e6cc307f642ecebe3fa5648fde709
+  logo_old_png9 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+c6661217faa2f02dff1d9ae8fb917f4c
+  logo_png :: Yesod.Static.StaticRoute
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Settings.StaticFiles.logo_png1
+                  `cast`
+                (Sub (Sym (Yesod.Static.TFCo:R:RouteStatic[0]))) -}
+9d9c3ac3bae4b682274351760b08e4f4
+  logo_png1 :: Yesod.Static.R:RouteStatic
+  {- Strictness: m,
+     Unfolding: (Yesod.Static.StaticRoute
+                   Settings.StaticFiles.logo_png5
+                   Settings.StaticFiles.logo_png2) -}
+54795325c201e963281db743545c5124
+  logo_png2 :: [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                   Settings.StaticFiles.logo_png3
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text, Data.Text.Internal.Text))) -}
+1e5bc4be8a7254cef485ea4c0a29071b
+  logo_png3 :: (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Strictness: m,
+     Unfolding: ((Settings.StaticFiles.baz_css5,
+                  Settings.StaticFiles.logo_png4)) -}
+41e8fb3fe8ed53e82e4f101851bf4ebe
+  logo_png4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "YICwz4lS"#) -}
+d8293372f41ae3558bccfc07c84ec88b
+  logo_png5 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.logo_png6
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+f9c4b6721c0c479ff7c6515ebe0089d8
+  logo_png6 :: Data.Text.Internal.Text
+  {- Unfolding: (GHC.ST.runSTRep
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.logo_png7) -}
+d63c062c950ace23a58924933623d409
+  logo_png7 ::
+    GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                 case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                 Settings.StaticFiles.logo_png9
+                   @ s1
+                   (Data.Text.Array.MArray @ s1 ipv1)
+                   Settings.StaticFiles.baz_css10
+                   Settings.StaticFiles.logo_png8
+                   0
+                   ipv }) -}
+d86bb1c3c70c74af801a922b78c01242
+  logo_png8 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "logo.png"#) -}
+9ac2242204fa11c2806c1c328dc81e2f
+  logo_png9 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+cb1cadaaad038e51ad0b682082748d8b
+  tamanho_png :: Yesod.Static.StaticRoute
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Settings.StaticFiles.tamanho_png1
+                  `cast`
+                (Sub (Sym (Yesod.Static.TFCo:R:RouteStatic[0]))) -}
+7aa47fe9bc122284e3b96b0f004a6d91
+  tamanho_png1 :: Yesod.Static.R:RouteStatic
+  {- Strictness: m,
+     Unfolding: (Yesod.Static.StaticRoute
+                   Settings.StaticFiles.tamanho_png5
+                   Settings.StaticFiles.tamanho_png2) -}
+54b973cfc33cdd74effa98afb8e9a811
+  tamanho_png2 ::
+    [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                   Settings.StaticFiles.tamanho_png3
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text, Data.Text.Internal.Text))) -}
+ef78d48cec92b4b6fe4d240dc97a2e2a
+  tamanho_png3 :: (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Strictness: m,
+     Unfolding: ((Settings.StaticFiles.baz_css5,
+                  Settings.StaticFiles.tamanho_png4)) -}
+66e3a8f4aa332775c797d050d8c27919
+  tamanho_png4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "JN8sO9wV"#) -}
+7e173c3ee01283d7ade543632b7af026
+  tamanho_png5 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.tamanho_png6
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+284bf70b58fc4367d821f38bd86f0d40
+  tamanho_png6 :: Data.Text.Internal.Text
+  {- Unfolding: (GHC.ST.runSTRep
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.tamanho_png7) -}
+a3371942edd30bc68a7f656ce9905e54
+  tamanho_png7 ::
+    GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                 case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                 Settings.StaticFiles.tamanho_png9
+                   @ s1
+                   (Data.Text.Array.MArray @ s1 ipv1)
+                   Settings.StaticFiles.baz_css10
+                   Settings.StaticFiles.tamanho_png8
+                   0
+                   ipv }) -}
+101d3c5d2ba0dca2937aff8ad0137c64
+  tamanho_png8 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "tamanho.png"#) -}
+7c445f5a47d4fe5ac7f1cf42097eb534
+  tamanho_png9 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

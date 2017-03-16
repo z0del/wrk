@@ -1,0 +1,42 @@
+Configuring yesod-bin-1.4.18.1...
+Building yesod-bin-1.4.18.1...
+Preprocessing executable 'yesod-ghc-wrapper' for yesod-bin-1.4.18.1...
+[1 of 1] Compiling Main             ( ghcwrapper.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/yesod-ghc-wrapper/yesod-ghc-wrapper-tmp/Main.o )
+Linking .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/yesod-ghc-wrapper/yesod-ghc-wrapper ...
+Preprocessing executable 'yesod-ld-wrapper' for yesod-bin-1.4.18.1...
+[1 of 1] Compiling Main             ( ghcwrapper.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/yesod-ld-wrapper/yesod-ld-wrapper-tmp/Main.o )
+Linking .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/yesod-ld-wrapper/yesod-ld-wrapper ...
+Preprocessing executable 'yesod-ar-wrapper' for yesod-bin-1.4.18.1...
+[1 of 1] Compiling Main             ( ghcwrapper.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/yesod-ar-wrapper/yesod-ar-wrapper-tmp/Main.o )
+Linking .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/yesod-ar-wrapper/yesod-ar-wrapper ...
+Preprocessing executable 'yesod' for yesod-bin-1.4.18.1...
+[1 of 9] Compiling GhcBuild         ( GhcBuild.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/yesod/yesod-tmp/GhcBuild.o )
+[2 of 9] Compiling Build            ( Build.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/yesod/yesod-tmp/Build.o )
+
+Build.hs:14:1: Warning:
+    The import of `<$>' from module `Control.Applicative' is redundant
+
+Build.hs:31:1: Warning:
+    The import of `Data.Monoid' is redundant
+      except perhaps to import instances from `Data.Monoid'
+    To import instances alone, use: import Data.Monoid()
+[3 of 9] Compiling HsFile           ( HsFile.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/yesod/yesod-tmp/HsFile.o )
+[4 of 9] Compiling Paths_yesod_bin  ( .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/autogen/Paths_yesod_bin.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/yesod/yesod-tmp/Paths_yesod_bin.o )
+[5 of 9] Compiling Keter            ( Keter.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/yesod/yesod-tmp/Keter.o )
+[6 of 9] Compiling Options          ( Options.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/yesod/yesod-tmp/Options.o )
+[7 of 9] Compiling Devel            ( Devel.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/yesod/yesod-tmp/Devel.o )
+
+Devel.hs:21:1: Warning:
+    The import of `Control.Applicative' is redundant
+      except perhaps to import instances from `Control.Applicative'
+    To import instances alone, use: import Control.Applicative()
+
+Devel.hs:156:53: Warning:
+    In the use of `conduitManagerSettings'
+    (imported from Network.HTTP.Conduit):
+    Deprecated: "Use tlsManagerSettings"
+[8 of 9] Compiling AddHandler       ( AddHandler.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/yesod/yesod-tmp/AddHandler.o )
+[9 of 9] Compiling Main             ( main.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/yesod/yesod-tmp/Main.o )
+Linking .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/yesod/yesod ...
+Installing executable(s) in
+/home/human/.stack/snapshots/x86_64-linux/lts-5.14/7.10.3/bin

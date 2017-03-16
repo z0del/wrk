@@ -1,0 +1,31 @@
+Configuring aeson-compat-0.3.2.0...
+Building aeson-compat-0.3.2.0...
+Preprocessing library aeson-compat-0.3.2.0...
+[1 of 2] Compiling Data.Aeson.Compat.Time ( src/Data/Aeson/Compat/Time.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/Compat/Time.o )
+[2 of 2] Compiling Data.Aeson.Compat ( src/Data/Aeson/Compat.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/Compat.o )
+
+src/Data/Aeson/Compat.hs:33:3: Warning:
+    `eitherDecode' is exported by `module Data.Aeson' and `eitherDecode'
+
+src/Data/Aeson/Compat.hs:33:3: Warning:
+    eitherDecode' is exported by `module Data.Aeson' and eitherDecode'
+
+src/Data/Aeson/Compat.hs:33:3: Warning:
+    `eitherDecodeStrict' is exported by `module Data.Aeson' and `eitherDecodeStrict'
+
+src/Data/Aeson/Compat.hs:33:3: Warning:
+    eitherDecodeStrict' is exported by `module Data.Aeson' and eitherDecodeStrict'
+
+src/Data/Aeson/Compat.hs:33:3: Warning:
+    `.:!' is exported by `module Data.Aeson' and `(.:!)'
+
+src/Data/Aeson/Compat.hs:56:1: Warning:
+    The qualified import of `Data.Scientific' is redundant
+      except perhaps to import instances from `Data.Scientific'
+    To import instances alone, use: import Data.Scientific()
+In-place registering aeson-compat-0.3.2.0...
+Creating package registration file:
+/tmp/pkgConf-aeson-compat-0.3.2345367818257675105.0
+Installing library in
+/home/human/Workspace/Haskell/myBlog/.cabal-sandbox/lib/x86_64-linux-ghc-7.10.3/aeson-compat-0.3.2.0-CUxPCJqggqkEtK47xPvDYi
+Registering aeson-compat-0.3.2.0...

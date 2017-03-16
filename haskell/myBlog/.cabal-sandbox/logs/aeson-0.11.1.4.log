@@ -1,0 +1,25 @@
+Configuring aeson-0.11.1.4...
+Building aeson-0.11.1.4...
+Preprocessing library aeson-0.11.1.4...
+[ 1 of 16] Compiling Data.Aeson.Functions ( Data/Aeson/Functions.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/Functions.o )
+[ 2 of 16] Compiling Data.Aeson.Internal.Time ( Data/Aeson/Internal/Time.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/Internal/Time.o )
+[ 3 of 16] Compiling Data.Aeson.Types.Internal ( Data/Aeson/Types/Internal.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/Types/Internal.o )
+[ 4 of 16] Compiling Data.Aeson.Encode.Builder ( Data/Aeson/Encode/Builder.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/Encode/Builder.o )
+[ 5 of 16] Compiling Data.Aeson.Types.Class ( Data/Aeson/Types/Class.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/Types/Class.o )
+[ 6 of 16] Compiling Data.Aeson.Encode.Functions ( Data/Aeson/Encode/Functions.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/Encode/Functions.o )
+[ 7 of 16] Compiling Data.Aeson.Parser.Time ( Data/Aeson/Parser/Time.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/Parser/Time.o )
+[ 8 of 16] Compiling Data.Aeson.Types.Instances ( Data/Aeson/Types/Instances.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/Types/Instances.o )
+[ 9 of 16] Compiling Data.Aeson.Internal ( Data/Aeson/Internal.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/Internal.o )
+[10 of 16] Compiling Data.Aeson.Types.Generic ( Data/Aeson/Types/Generic.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/Types/Generic.o )
+[11 of 16] Compiling Data.Aeson.Types ( Data/Aeson/Types.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/Types.o )
+[12 of 16] Compiling Data.Aeson.Parser.Internal ( Data/Aeson/Parser/Internal.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/Parser/Internal.o )
+[13 of 16] Compiling Data.Aeson.Parser ( Data/Aeson/Parser.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/Parser.o )
+[14 of 16] Compiling Data.Aeson.Encode ( Data/Aeson/Encode.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/Encode.o )
+[15 of 16] Compiling Data.Aeson       ( Data/Aeson.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson.o )
+[16 of 16] Compiling Data.Aeson.TH    ( Data/Aeson/TH.hs, dist/dist-sandbox-6fc0c9a3/build/Data/Aeson/TH.o )
+In-place registering aeson-0.11.1.4...
+Creating package registration file:
+/tmp/pkgConf-aeson-0.11.110473722311707746139.4
+Installing library in
+/home/human/Workspace/Haskell/myBlog/.cabal-sandbox/lib/x86_64-linux-ghc-7.10.3/aeson-0.11.1.4-GCTnvTF3joUC9k79tE6QRI
+Registering aeson-0.11.1.4...

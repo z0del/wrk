@@ -1,0 +1,11 @@
+textarea {
+    min-height: 400px;
+}
+body {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2em;
+    background-color: #d7e0dd;
+}
+a,a:visited {
+    color: #000;
+}

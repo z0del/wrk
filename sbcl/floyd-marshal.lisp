@@ -1,0 +1,21 @@
+(defparameter *n* 5)
+(defparameter *path*
+  (make-array (list *n* *n*)
+          :element-type '(unsigned-byte 64)))
+
+
+(defun floyd-warshall (path)
+  (declare (type (simple-array (unsigned-byte 64) 2) path)
+       (values (simple-array (unsigned-byte 64) 2) &optional))
+  (destructuring-bind (y x) (array-dimensions path)
+    (unless (= y x)
+      (break "I expect a square matrix, not ~ax~a." x y))
+    (macrolet ((p (j i)
+         `(aref path ,j ,i)))
+      (dotimes (k x)
+    (dotimes (i x)
+      (dotimes (j x)
+        (setf (p j i)
+          (min (p j i) (+ (p k i)
+                  (p j k)))))))))
+  path)
