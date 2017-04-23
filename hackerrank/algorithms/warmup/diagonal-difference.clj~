@@ -1,0 +1,7 @@
+(use '[clojure.string :only (split triml)])
+
+(read-line)
+
+(defn l [] (let [a (read-line)]
+             (map (fn [v] (Integer/parseInt v)) (split a #"\s+"))))
+  
