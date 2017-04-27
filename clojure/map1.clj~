@@ -1,2 +1,0 @@
-(defn map' [f coll]
-  (seq(reduce #(conj %1 (f %2)) [] coll)))
