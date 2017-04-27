@@ -1,0 +1,1 @@
+(fn [x] (vals (group-by type x)))

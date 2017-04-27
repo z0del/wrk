@@ -1,0 +1,1 @@
+(fn build-map [value coll] (apply hash-map ((fn [c] (reduce #(conj %1 %2 value) [] c)) coll)))

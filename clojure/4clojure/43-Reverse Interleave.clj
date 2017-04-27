@@ -1,0 +1,1 @@
+(fn [coll n] (apply (partial map vector) (partition n coll)))

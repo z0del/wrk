@@ -1,0 +1,1 @@
+(fn [string] (sort #(compare (.toLowerCase %1) (.toLowerCase %2)) (clojure.string/split string #"\W+")))

@@ -1,0 +1,1 @@
+(fn P62 [f v] (cons v (lazy-seq (P62 f (f v)))))

@@ -1,0 +1,1 @@
+(fn [d] (into {} (for [[x v] d [y z] v] [[x y] z])))

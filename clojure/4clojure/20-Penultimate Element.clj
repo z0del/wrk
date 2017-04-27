@@ -1,0 +1,1 @@
+#(nth % (dec (dec (count %))))

@@ -1,0 +1,1 @@
+(fn t7 [x] (= x (apply + (filter #(zero? (rem x %)) (range 1 x)))))
